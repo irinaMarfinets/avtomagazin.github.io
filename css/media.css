@@ -1,0 +1,125 @@
+@media screen and (max-width: 1224px) {
+	.container {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	.container {
+		width: 100%;
+	}
+
+	.topMenu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 753px) {
+	.productItem {
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.scroll_To_Top {
+		width: 60px;
+		height: 40px; 
+		bottom: 10px;
+		right: 10px;
+	}
+}
+
+@media screen and (max-width: 749px) {
+	.productRow {
+		flex-wrap: wrap;
+	}
+	.productItem {
+		margin-left: 0;
+		margin-right: 0;
+		width: 26%;
+	}
+}
+
+@media screen and (max-width: 749px) {
+	.nav {
+		justify-content: space-between;
+	}
+
+	.logoName p {
+		font-size: 40px;
+	}
+	h3 {
+		font-size: 25px;
+	}
+
+	.advant {
+		flex-wrap: wrap;
+	}
+
+	.advantItem {
+		width: 100%;
+		height: 140px;
+	}
+
+@media screen and (max-width: 600px) {
+	.header {
+		justify-content: center;
+	}
+	.logoName {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.nav p, .nav a {
+		font-size: 18px;
+	}
+
+	h3 {
+		margin: 0 7px;
+	}
+
+	.productItem {
+		margin-left: 0;
+		margin-right: 0;
+		width: 35%;
+	}
+
+	iframe {
+		margin-top: 20px;
+		width: 400px;
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.logoName {
+		width: 90%;
+	}
+} 
+
+@media screen and (max-width: 468px) {
+	.nav, .footer {
+		flex-wrap: wrap;
+		height: 80px;
+		justify-content: center;
+	}
+
+	.pTopMenu, .telTopMenu {
+		margin: 0;
+		padding: 0;
+	}
+	.pFooterMenu, .telFooterMenu {
+		margin: 0 30px;
+		font-size: 18px;
+		text-align: center;
+	} 
+}
+
+@media screen and (max-width: 390px) {
+	.productItem {
+		width: 60%;
+	}
+
+	.pTopMenu {
+		text-align: center;
+	}
+}
